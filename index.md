@@ -1,16 +1,12 @@
----
-layout: default
----
-
 {% include notes-on-it-revit-documentation.md %}
 
 <br>
 
-{% include PIM.md %}
+{% include why-revitalisation.md %}
 
 <br>
 
-{% include tools.md %}
+{% include pim.md %}
 
 <br>
 
@@ -21,11 +17,7 @@ layout: default
 {% include specific-customised-websites.md %}
 
 
-The reasons for IT revitalisation is:
-- Create websites for marketing my IT services that inclue
-   - website creation
-   - online music theory tuition
-- Create websites for clients as an income option
+
 
 PIM
 - backedup folder (to drive.google.com)
