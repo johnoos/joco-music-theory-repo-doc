@@ -4,7 +4,12 @@ This documentation is located
 at https://github.com/johnoos/it-revit-docn/blob/main/README.md
 documentation in README.md, as wiki is not available on private repos
 using browser user interface - no local copy
-main headings (organised by time line)
+
+The reasons for IT revitalisations are:
+- Create websites for marketing my IT services that inclue
+   - website creation
+   - online music theory tuition
+- Create websites for clients as an income option
 
 PIM
 - backedup folder (to drive.google.com)
