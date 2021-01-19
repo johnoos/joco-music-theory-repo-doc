@@ -10,24 +10,11 @@
 
 <br>
 
-{% include specific-music-theory.md %}
+{% include webapp-architecture.md %}
 
 <br>
 
 {% include specific-customised-websites.md %}
-
-
-
-
-
-
-
-MY WEBSITE BUILD STRATEGY
-- documentation
-- components for reuse and ease of maintenance
-- websites and my target markets
-   - music theory
-      - target markets (56 ppl for now)
 
 TOOLS (editors, languages, code and documentation repositories)
    - url shortening
