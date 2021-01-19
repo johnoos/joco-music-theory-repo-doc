@@ -16,30 +16,6 @@
 
 {% include specific-customised-websites.md %}
 
-TOOLS (editors, languages, code and documentation repositories)
-   - url shortening
-   - editors (visual studio, nano, atom)
-   - image, audio, video processing apps
-   - browser & developer support
-   - cloud deployment - google cloud - why did I select this one?
-   - tech options and rationale for selecting react.js
-   - react.js (for website dev)
-      - SSR, CSR concepts
-      - prebuilt components in other satellite tools? 
-      - architecture usage - how components are used (struct, content)
-      - sidebar menu component name - how used
-      - responsive web design, devices
-   - git and github (for source control)
-      - list repos (we're focusing on react.js for website dev)
-   - hosting options
-      - github vs google cloud
-   - combining git and npm architectures
-      - workspace level (-wspace) - have .git and .gitignore
-      - webapp level (NPM start)
-   - git commands (appendix?)
-      - https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/
-   - link to github ( a use case)
-
 CODING
 - npm start (appendix?) (get more from w3schools npm tutorial)
 
