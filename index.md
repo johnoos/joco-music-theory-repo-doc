@@ -16,8 +16,29 @@
 
 {% include specific-customised-websites.md %}
 
-CODING
-- npm start (appendix?) (get more from w3schools npm tutorial)
+<br>
+
+{% include tools.md %}
+
+<br>
+
+{% include coding.md %}
+
+<br>
+
+{% include building.md %}
+
+<br>
+
+{% include deploying.md %}
+
+<br>
+
+{% include specific-webapps.md %}
+
+<br>
+
+{% include git-commands.md %}
 
 BUILDING
 - npm build (get more from w3schools npm tutorial)
@@ -28,7 +49,7 @@ DEPLOYING
    - picks up the deployable file and puts it in the cloud
    - get more from (console.?)cloud.google.com
 
-SPECIFIC WEBSITES
+SPECIFIC WEBAPPS
 - music theory
    - location of certificates (finder / googledrive / bitly)
    
