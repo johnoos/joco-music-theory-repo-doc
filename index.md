@@ -34,15 +34,11 @@
 
 <br>
 
-{% include specific-webapps.md %}
+{% include specific-webapps-music-theory.md %}
 
 <br>
 
 {% include git-commands.md %}
-
-SPECIFIC WEBAPPS
-- music theory
-   - location of certificates (finder / googledrive / bitly)
    
 GIT COMMANDS
 
