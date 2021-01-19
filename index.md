@@ -14,7 +14,7 @@
 
 <br>
 
-{% include specific-customised-websites.md %}
+{% include specific-webapps-music-theory.md %}
 
 <br>
 
@@ -31,10 +31,6 @@
 <br>
 
 {% include deploying.md %}
-
-<br>
-
-{% include specific-webapps-music-theory.md %}
 
 <br>
 
