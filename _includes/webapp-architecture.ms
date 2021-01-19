@@ -1,0 +1,5 @@
+- documentation
+- components for reuse and ease of maintenance
+- websites and my target markets
+   - music theory
+      - target markets (56 ppl for now)
