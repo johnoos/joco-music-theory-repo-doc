@@ -40,11 +40,6 @@
 
 {% include git-commands.md %}
 
-DEPLOYING
-- google cloud procedure / commands
-   - picks up the deployable file and puts it in the cloud
-   - get more from (console.?)cloud.google.com
-
 SPECIFIC WEBAPPS
 - music theory
    - location of certificates (finder / googledrive / bitly)
