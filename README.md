@@ -1,5 +1,7 @@
 INTRO
-this documentation is located at github.com/johnoos/it-revit-docn/
+
+This documentation is located 
+at https://github.com/johnoos/it-revit-docn/edit/main/README.md
 documentation in README.md, as wiki is not available on private repos
 using browser user interface - no local copy
 main headings (organised by time line)
