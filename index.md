@@ -40,10 +40,6 @@
 
 {% include git-commands.md %}
 
-BUILDING
-- npm build (get more from w3schools npm tutorial)
-   - creates a deployable file like a war file
-
 DEPLOYING
 - google cloud procedure / commands
    - picks up the deployable file and puts it in the cloud
