@@ -1,4 +1,4 @@
-### Personal Information Management
+## Personal Information Management
 * backedup folder (to drive.google.com)
 * use of backup and sync app - ONLY backedup folder
 * large files such as node-modules not in backedup
