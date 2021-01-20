@@ -12,11 +12,21 @@ Two levels of react.js components are used: structural components (header, sideb
 
 #### Code structure and management
 The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a git push occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
-<p>
+
 A webapp folder is at the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
   
 #### Documentation
 Time was invested in properly documenting the various aspects of the webapp dvelopment. The purpose is to minimise ramp-up time after time away from development.
+
+This documentation is located 
+at https://johnoos.github.io/it-revit-docn
+which uses the 'pages' facility of github and the 'markdown' language
+To update the documentation, use the github interface in github. 
+There is no local copy on the laptop.
+Click [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
+for more information on github 'pages'.
+[This link](https://docs.github.com/en/github/writing-on-github) 
+has more on writing in Github.
 
 * backedup folder (to drive.google.com)
 * use of backup and sync app - ONLY backedup folder
@@ -28,16 +38,6 @@ Time was invested in properly documenting the various aspects of the webapp dvel
       *** npm start for autodeploy on save during dev - for viewing in browser
       *** will eventually be built and deployed
 * git / npm architectures combined 
-   ** 2 levels - '..-wspace' commit vs app npm start
+   ** 2 levels - '..-wspace' commit vs app npm start 
    
-## Notes on IT Revitalisation Documentation  
-This documentation is located 
-at https://johnoos.github.io/it-revit-docn
-which uses the 'pages' facility of github and the 'markdown' language
-To update the documentation, use the github interface in github. 
-There is no local copy on the laptop.
-Click [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
-for more information on github 'pages'.
-[This link](https://docs.github.com/en/github/writing-on-github) 
-has more on writing in Github.   
 
