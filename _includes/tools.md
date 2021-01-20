@@ -1,13 +1,16 @@
-TOOLS (editors, languages, code and documentation repositories)
-   - url shortening
-   - editors (visual studio, nano, atom)
-   - image, audio, video processing apps
-   - browser & developer support
-   - cloud deployment - google cloud - why did I select this one?
-   - tech options and rationale for selecting react.js
-   - react.js (for website dev)
-      - SSR, CSR concepts
-      - prebuilt components in other satellite tools? 
+### Tools
+
+The following categories of tools for website development are discussed.
+
+URL shortening: bit.ly  
+Code editors: Visual Studio Code for react.js code. Atom is also an option but with less functionality.  
+Image processing: GIMP  
+Audio processing: Audacity  
+Video processing: DaVinci Resolve  
+Browser: Firefox with its developer support (Chrome is too resource intensive, and Safari ecosystem of extensions is limited and not free)  
+Hosting: Google Cloud - it's easy to use and one of the cheapest options  
+Coding language: react.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language.
+
       - architecture usage - how components are used (struct, content)
       - sidebar menu component name - how used
       - responsive web design, devices
