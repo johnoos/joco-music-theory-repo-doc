@@ -1,10 +1,11 @@
 ## Documentation
-Time was invested in properly documenting the various aspects of the webapp development. The purpose is to minimise ramp-up time after time away from development.
+Time was invested in properly documenting the target market, requirements, architecture, tooling, and command sets for the Music Theory Tuition Website. 
+The purpose is to minimise ramp-up time after time away from development.
 
 This documentation is located 
-at https://johnoos.github.io/it-revit-docn
+at https://johnoos.github.io/Music-Theory-Tuition-Website-Documentation
 which uses the 'pages' facility of github and the 'markdown' language.
-To update the documentation, use the http://github.com/johnoos/it-revit-docn link. 
+To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Website-Documentation link. 
 There is no local copy of the documentation on the MAC laptop.
 Click 
 [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
