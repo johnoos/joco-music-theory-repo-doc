@@ -26,13 +26,14 @@ The initial offering is online music theory tuition, and the initial target mark
 About fifty colleagues, family, and friends have been identified for an initial outreach. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the website and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
 backedup/music/MUSIC-WEBSITE-DOCS/client&prospects.xlsx spreadsheet.
 
-## Requirements
+## App Requirements
 The COVID-19 pandemic has reduced the disposable income of many families and students, and extravagant marketing expenses are out of the question. The web application is the primary marketing tool for music ttheory tuition and should be cost effective. Its purpose is to describe the online and other music theory tuition offerings, present prices, contact details, and credentials of the tutors, John and Candy Oosthuizen. Pre-school theory, theory at grade 1-8 levels, and adult beginners are targeted, as well as guitar students up to grade 4. 
 
 A group of fifty-six people have been identified to assist with 'spreading the word'. An initial email will be sent to them with links to the marketing app and a simple facebook page with contact info and a link to the web app.
 
-## Web App Architecture and Design
-The web application architecture should be standardised for all web application development activity to attain the benefit of reuse. The first web application that will be developed will be the music theory tuition marketing web application, but customised website or web application development for clients is also envisaged. 
+## Architecture
+### Architectural Requirements
+It is envisaged that web apps with static (initially) and dynamic (evntually) requirements will be built. The initial web app will market the music theory tuition offerings. Thereafter, a marketing web app will be developed for customised web app building, followed by the actual customised web apps. It makes sense to adopt (or create) an architecture framework that will form the basis for all these development projects. Each project would reap the benefit of structural and functional reuse. 
 
 ### Components
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
@@ -44,7 +45,7 @@ Each workspace can contain multiple **WEBAPP** folders, the level where npm comm
 The Music Theory Tuition web app is at this level.
 
 ### Data Management
-The certificates displyed in the credentials section of the web app constitutes 'data'. These PDF documents are stored on the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. On gdrive, the respective documents are 'shared', and the public links are used in the react.js code. 
+The certificates displayed in the credentials section of the web app constitutes 'data'. These PDF documents are stored in the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. The path to them is backedup/music/MUSIC-WEBAPP-DOCS on gdrive. The documents are 'shared' on gdrive, and the public links are used in the react.js code. 
 
 ### Tools
 
