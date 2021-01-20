@@ -1,4 +1,4 @@
-## GIT Commands per Use Case
+## Appendix A: GIT Commands per Use Case
 
 ### Use Case 1: Link & upload local project to Github
 
