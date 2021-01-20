@@ -1,5 +1,5 @@
-### GIT Commands per Use Case
-#### Use Case 1: Link & upload local project to Github
+## GIT Commands per Use Case
+### Use Case 1: Link & upload local project to Github
 
 1. Go to GitHub and create a repository
    - leave create README file unchecked
