@@ -1,28 +1,20 @@
 ## Documentation
 Time was invested in properly documenting the target market, requirements, architecture, tooling, and command sets for the Music Theory Tuition Website. 
-The purpose is to minimise ramp-up time after time away from development.
+The purpose is to minimise ramp-up time after a period of inactivity.
 
 This documentation is located 
 at https://johnoos.github.io/Music-Theory-Tuition-Website-Documentation
-which uses the 'pages' facility of github and the 'markdown' language.
+which uses the 'pages' facility of github and the 'markdown' language, the 
+natural documentation language of Github. 
+The reason for selecting Github for this documentation is that it where the 
+source code is stored and one would, therefore, naturally look there for appliation documentation. 
+In this way I also get more exposure to Github and this becomes part of my IT revitalisation efforts.
 To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Website-Documentation link. 
 There is no local copy of the documentation on the MAC laptop.
 Click 
 [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
 [here](https://docs.github.com/en/github/writing-on-github)
-for more information on github 'pages'.
-
-* backedup folder (to drive.google.com)
-* use of backup and sync app - ONLY backedup folder
-* large files such as node-modules not in backedup
-* where are IT-workspaces in folder structure
-* concept of a WORKSPACE vs WEBAPP
-   ** workspace - a git repository - unit of commitment
-   ** webapp (the react.js app)
-      *** npm start for autodeploy on save during dev - for viewing in browser
-      *** will eventually be built and deployed
-* git / npm architectures combined 
-   ** 2 levels - '..-wspace' commit vs app npm start 
+for more information on github 'pages' or the markdon documentation language.
 
 ## Target Market
 The academic and school communities in and around Stellenbosch, South Africa, will be initially targeted.
@@ -39,6 +31,18 @@ React.js components are used for two levels of components: structural components
 The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
 
 A webapp folder is at the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
+
+* backedup folder (to drive.google.com)
+* use of backup and sync app - ONLY backedup folder
+* large files such as node-modules not in backedup
+* where are IT-workspaces in folder structure
+* concept of a WORKSPACE vs WEBAPP
+   ** workspace - a git repository - unit of commitment
+   ** webapp (the react.js app)
+      *** npm start for autodeploy on save during dev - for viewing in browser
+      *** will eventually be built and deployed
+* git / npm architectures combined 
+   ** 2 levels - '..-wspace' commit vs app npm start 
 
 ### Data Management
 The certificates displyed in the credentials section of the web app constitutes 'data'. These PDF documents are stored on the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. On gdrive, the respective documents are 'shared', and the public links are used in the react.js code. 
@@ -65,12 +69,15 @@ Github Pages is not an option as it is tightly integrated with the other github 
 Coding language: react.js  
 React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
 
-Source control and backup storage: The git and github (industry standard) - http://github.com/johnoos/react.js-workspace (older version in http://github.com/johnoos/react.js-wspace)
-
-
-   - git commands (appendix?)
-      - https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/
-   - link to github ( a use case)
-   
-   
+* backedup folder (to drive.google.com)
+* use of backup and sync app - ONLY backedup folder
+* large files such as node-modules not in backedup
+* where are IT-workspaces in folder structure
+* concept of a WORKSPACE vs WEBAPP
+   ** workspace - a git repository - unit of commitment
+   ** webapp (the react.js app)
+      *** npm start for autodeploy on save during dev - for viewing in browser
+      *** will eventually be built and deployed
+* git / npm architectures combined 
+   ** 2 levels - '..-wspace' commit vs app npm start 
 
