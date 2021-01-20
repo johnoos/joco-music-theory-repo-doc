@@ -28,6 +28,7 @@ Time was invested in properly documenting the various aspects of the webapp dvel
       *** will eventually be built and deployed
 * git / npm architectures combined 
    ** 2 levels - '..-wspace' commit vs app npm start
+   
 ## Notes on IT Revitalisation Documentation  
 This documentation is located 
 at https://johnoos.github.io/it-revit-docn
