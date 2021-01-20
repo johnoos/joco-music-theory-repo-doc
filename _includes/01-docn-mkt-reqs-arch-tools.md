@@ -17,13 +17,20 @@ Click
 for more information on github 'pages' or the markdon documentation language.
 
 ## Target Market
-The academic and school communities in and around Stellenbosch, South Africa, will be initially targeted.
+The initial offering is online music theory tuition, and the initial target market is the academic and school communities in and around Stellenbosch, South Africa, In the future, this initiative could expand in the following ways.
+* As online tuition is not location-bound, the target market could eventually expand to national and international levels.
+* Face-to-face tuition, where the tutor and student(s) is present in the same room, could become a reality once the worst or the COVID-19 period has passed.
+* Instrumental tuition will hopefully become a reality. Candy will offer guitar lessons, and John will offer piano and pipe organ lessons. 
+* Group tuition, or one-to-many-tuition, eithonline or in the same room, will enable ore affordable tuition, especially for schools, students, or siblings.  
+
 ## Requirements
-The COVID-19 pandemic has reduced the disposable income of many families and students, and extravagant marketing expenses are out of the question. The web application is the primary marketing tool and should be cost effective. Its purpose is to describe the online and other music theory tuition offerings, present prices, contact details, and credentials of the tutors, John and Candy Oosthuizen. Pre-school theory, theory at grade 1-8 levels, and adult beginners are targeted, as well as guitar students up to grade 4. 
+The COVID-19 pandemic has reduced the disposable income of many families and students, and extravagant marketing expenses are out of the question. The web application is the primary marketing tool for music ttheory tuition and should be cost effective. Its purpose is to describe the online and other music theory tuition offerings, present prices, contact details, and credentials of the tutors, John and Candy Oosthuizen. Pre-school theory, theory at grade 1-8 levels, and adult beginners are targeted, as well as guitar students up to grade 4. 
 
 A group of fifty-six people have been identified to assist with 'spreading the word'. An initial email will be sent to them with links to the marketing app and a simple facebook page with contact info and a link to the web app.
 
 ## Web App Architecture and Design
+The web application architecture should be standardised for all web application development activity to attain the benefit of reuse. The first web application that will be developed will be the music theory tuition marketing web application, but customised website or web application development for clients is also envisaged. 
+
 ### Components
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
 
