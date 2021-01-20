@@ -10,11 +10,10 @@ The reason for selecting Github for this documentation is that it where the
 source code is stored and one would, therefore, naturally look there for appliation documentation. 
 In this way I also get more exposure to Github and this becomes part of my IT revitalisation efforts.
 To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Website-Documentation link. 
-There is no local copy of the documentation on the MAC laptop.
-Click 
-[here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
-[here](https://docs.github.com/en/github/writing-on-github) for more information in github pages.
-Click [here](https://www.markdownguide.org/extended-syntax/) for more information on the markdown language.
+There is no local copy of the documentation on the MAC laptop. For more information, click on one of the following:
+[Getting started with Github Pages](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
+[Writing on Github](https://docs.github.com/en/github/writing-on-github)
+[The markdown language](https://www.markdownguide.org/extended-syntax/)
 
 ## Target Market
 The initial offering is online music theory tuition, and the initial target market is the academic and school communities in and around Stellenbosch, South Africa, In the future, this initiative could expand in the following ways.
@@ -33,7 +32,21 @@ A group of fifty-six people have been identified to assist with 'spreading the w
 
 ## Architecture
 ### Architectural Requirements
-It is envisaged that web apps with static (initially) and dynamic (evntually) requirements will be built. The initial web app will market the music theory tuition offerings. Thereafter, a marketing web app will be developed for customised web app building, followed by the actual customised web apps. It makes sense to adopt (or create) an architecture framework that will form the basis for all these development projects. Each project would reap the benefit of structural and functional reuse. 
+It is envisaged that web apps with static (initially) and dynamic (evntually) requirements will be built. The initial web app will market the music theory tuition offerings. Thereafter, a marketing web app will be developed for customised web app building, followed by the actual customised web apps. It makes sense to adopt (or create) an architecture framework that will form the basis for all these development projects. Each project would reap the benefit of structural and functional reuse.
+
+The following architecture decisions were made, for reasons as provided.
+
+### Dynamic Content
+There are many tools that provide pages with static content. Such pages make up websites, not web applications (web apps). Such websites are delivered in a fraction of the time of web applications, but they are less flexible and cannot readily expand into web application with dynamic content without changing the underlying architeture or technology. Using tooling capable of dynamic content from the outset is architecturally sound. All node.js-based platforms produce dynamic content by definition.
+
+### Server-Side Rendition (SSR)
+Node.js-based development platforms are SSR by definition, as the HTML is generated on the server before being sent to the browser client. This is unlike client-side rendering (CSR) where it is generated in the browser. There are several benefits of SSR, including that the generation process is much quicker, and the dependency on specific browsers with CSR-capability is eliminated.
+
+### Single Page Applications (SPAs)
+These applications only have one page that is scrollable. Information is displayed in the main pane which is scrollable if needed to fit in all the information. The menu, which is either across the top in a menu bar or to the left in a side panel, does not scroll. This type of web application has become more popular in recent times. When the application content is spread over many pages, the user may have to wait for the server and network to respond with each page switch. With SPA apps, the user merely scroll to the required information.
+
+### Responsive Web Design (RWD)
+With responsive web design, the page content automatically re-adjusts itself when the web app window is resized, the screen resolution is changed, or a device with a smaller or larger screen is used.
 
 ### Components
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
