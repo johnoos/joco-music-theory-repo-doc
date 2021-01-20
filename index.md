@@ -1,8 +1,3 @@
 {% include 01-docn-mkt-reqs-arch-tools.md %} <br>
-{% include why-IT-revitalisation.md %} <br>
-{% include webapp-architecture.md %} <br>
-{% include specific-webapps-music-theory.md %} <br>
-{% include coding.md %} <br>
-{% include building.md %} <br>
-{% include deploying.md %} <br>
-{% include git-commands-per-use-case.md %}
+{% include 02-code-build-deploy.md %} <br>
+{% include 91-git-commands-per-use-case.md %}
