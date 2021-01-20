@@ -1,4 +1,4 @@
-## Deployment to Google Cloud 
+## Appendic C: Deployment to Google Cloud 
 
 service ID - joosthuizen.001@gmail.co.   
 template ID - template_snbbm1p ????  
