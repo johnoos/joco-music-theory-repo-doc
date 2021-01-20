@@ -13,8 +13,8 @@ To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuit
 There is no local copy of the documentation on the MAC laptop.
 Click 
 [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
-[here](https://docs.github.com/en/github/writing-on-github)
-for more information on github 'pages' or the markdon documentation language.
+[here](https://docs.github.com/en/github/writing-on-github) for more information in github pages.
+Click [here](https://www.markdownguide.org/extended-syntax/) for more information on the markdown language.
 
 ## Target Market
 The initial offering is online music theory tuition, and the initial target market is the academic and school communities in and around Stellenbosch, South Africa, In the future, this initiative could expand in the following ways.
