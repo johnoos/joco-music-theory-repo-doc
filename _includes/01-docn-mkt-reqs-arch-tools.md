@@ -3,13 +3,13 @@ Time was invested in properly documenting the various aspects of the webapp dvel
 
 This documentation is located 
 at https://johnoos.github.io/it-revit-docn
-which uses the 'pages' facility of github and the 'markdown' language
-To update the documentation, use the github interface in github. 
-There is no local copy on the laptop.
-Click [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
+which uses the 'pages' facility of github and the 'markdown' language.
+To update the documentation, use the http://github.com/johnoos/it-revit-docn link. 
+There is no local copy of the documentation on the MAC laptop.
+Click 
+[here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
+[here](https://docs.github.com/en/github/writing-on-github)  
 for more information on github 'pages'.
-[This link](https://docs.github.com/en/github/writing-on-github) 
-has more on writing in Github.
 
 * backedup folder (to drive.google.com)
 * use of backup and sync app - ONLY backedup folder
