@@ -1,15 +1,15 @@
 ## Documentation
-Time was invested in properly documenting the target market, requirements, architecture, tooling, and command sets for the Music Theory Tuition Website. 
+Time was invested in properly documenting the target market, requirements, architecture, tooling, and command sets for the Music Theory Tuition Web App. 
 The purpose is to minimise ramp-up time after a period of inactivity.
 
 This documentation is located 
-at https://johnoos.github.io/Music-Theory-Tuition-Website-Documentation
+at https://johnoos.github.io/Music-Theory-Tuition-Web-App-Documentation
 which uses the 'pages' facility of github and the 'markdown' language, the 
 natural documentation language of Github. 
 The reason for selecting Github for this documentation is that it where the 
 source code is stored and one would, therefore, naturally look there for appliation documentation. 
 In this way I also get more exposure to Github and this becomes part of my IT revitalisation efforts.
-To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Website-Documentation link. 
+To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Web-App-Documentation link. 
 There is no local copy of the documentation on the MAC laptop. For more information, click on one of the following:
 [Getting started with Github Pages](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
 [Writing on Github](https://docs.github.com/en/github/writing-on-github)
@@ -22,8 +22,8 @@ The initial offering is online music theory tuition, and the initial target mark
 * Instrumental tuition will hopefully become a reality. Candy will offer guitar lessons, and John will offer piano and pipe organ lessons. 
 * Group tuition, or one-to-many-tuition, eithonline or in the same room, will enable ore affordable tuition, especially for schools, students, or siblings.
 
-About fifty colleagues, family, and friends have been identified for an initial outreach. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the website and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
-backedup/music/MUSIC-WEBSITE-DOCS/client&prospects.xlsx spreadsheet.
+About fifty colleagues, family, and friends have been identified for an initial outreach. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the web app and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
+backedup/music/MUSIC-WEB-APP-DOCS/client&prospects.xlsx spreadsheet.
 
 ## App Requirements
 The COVID-19 pandemic has reduced the disposable income of many families and students, and extravagant marketing expenses are out of the question. The web application is the primary marketing tool for music ttheory tuition and should be cost effective. Its purpose is to describe the online and other music theory tuition offerings, present prices, contact details, and credentials of the tutors, John and Candy Oosthuizen. Pre-school theory, theory at grade 1-8 levels, and adult beginners are targeted, as well as guitar students up to grade 4. 
@@ -58,7 +58,9 @@ Each workspace can contain multiple **WEBAPP** folders, the level where npm comm
 The Music Theory Tuition web app is at this level.
 
 ### Data Management
-The certificates displayed in the credentials section of the web app constitutes 'data'. These PDF documents are stored in the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. The path to them is backedup/music/MUSIC-WEBAPP-DOCS on gdrive. The documents are 'shared' on gdrive, and the public links are used in the react.js code. 
+The certificates displayed in the credentials section of the web app constitutes 'data'. These PDF documents are stored in the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. The path to them is backedup/music/MUSIC-WEBAPP-DOCS on gdrive. The documents are 'shared' on gdrive, and the public links are used in the react.js code.
+
+The benefit of this design is that any changes made to the data on the laptop are immediately seen on the deployed application.
 
 ### Tools
 
