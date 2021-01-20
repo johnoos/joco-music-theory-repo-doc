@@ -1,24 +1,12 @@
 {% include notes-on-it-revit-documentation.md %}
-
-<br>
-
 {% include why-IT-revitalisation.md %}
-
-<br>
-
-{% include pim.md %}
-
-<br>
-
 {% include webapp-architecture.md %}
-
-<br>
-
+{% include tools.md %}
 {% include specific-webapps-music-theory.md %}
 
 <br>
 
-{% include tools.md %}
+
 
 <br>
 
