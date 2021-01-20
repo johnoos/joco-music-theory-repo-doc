@@ -35,7 +35,7 @@ A group of fifty-six people have been identified to assist with 'spreading the w
 Two levels of react.js components are used: structural components (header, sidebar, content), and content components that mainly contin text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
 
 ### Code structure and management
-The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a git push occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
+The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
 
 A webapp folder is at the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
 
