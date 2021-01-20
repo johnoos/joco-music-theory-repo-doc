@@ -8,7 +8,7 @@ To update the documentation, use the http://github.com/johnoos/it-revit-docn lin
 There is no local copy of the documentation on the MAC laptop.
 Click 
 [here](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) or 
-[here](https://docs.github.com/en/github/writing-on-github)  
+[here](https://docs.github.com/en/github/writing-on-github)
 for more information on github 'pages'.
 
 * backedup folder (to drive.google.com)
@@ -59,7 +59,7 @@ Video processing: DaVinci Resolve
 Browser: Firefox with its developer support (Chrome is too resource intensive, and Safari ecosystem of extensions is limited and not free)
 
 Hosting: Google Cloud - it's easy to use and one of the cheapest options  
-Github Pages is technically also an option, but it is github-branded and on the radar of a worldwide developer community.
+Github Pages is not an option as it is tightly integrated with the other github functions and displays a link to the 'development code'.
 
 Coding language: react.js  
 React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
