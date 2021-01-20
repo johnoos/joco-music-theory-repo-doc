@@ -1,4 +1,4 @@
-## NPM Commands
+## Appendix B: NPM Commands
 
 | Command | Description |
 | :-- | :-- |
