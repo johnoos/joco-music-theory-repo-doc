@@ -21,7 +21,10 @@ The initial offering is online music theory tuition, and the initial target mark
 * As online tuition is not location-bound, the target market could eventually expand to national and international levels.
 * Face-to-face tuition, where the tutor and student(s) is present in the same room, could become a reality once the worst or the COVID-19 period has passed.
 * Instrumental tuition will hopefully become a reality. Candy will offer guitar lessons, and John will offer piano and pipe organ lessons. 
-* Group tuition, or one-to-many-tuition, eithonline or in the same room, will enable ore affordable tuition, especially for schools, students, or siblings.  
+* Group tuition, or one-to-many-tuition, eithonline or in the same room, will enable ore affordable tuition, especially for schools, students, or siblings.
+
+About fifty colleagues, family, and friends have been identified for an initial outreach. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the website and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
+backedup/music/MUSIC-WEBSITE-DOCS/client&prospects.xlsx spreadsheet.
 
 ## Requirements
 The COVID-19 pandemic has reduced the disposable income of many families and students, and extravagant marketing expenses are out of the question. The web application is the primary marketing tool for music ttheory tuition and should be cost effective. Its purpose is to describe the online and other music theory tuition offerings, present prices, contact details, and credentials of the tutors, John and Candy Oosthuizen. Pre-school theory, theory at grade 1-8 levels, and adult beginners are targeted, as well as guitar students up to grade 4. 
