@@ -38,7 +38,10 @@ Two levels of react.js components are used: structural components (header, sideb
 The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a git push occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
 
 A webapp folder is at the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
-   
+
+### Data Management
+The certificates displyed in the credentials section of the web app constitutes 'data'. These PDF documents are stored on the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. On gdrive, the respective documents are 'shared', and the public links are used in the react.js code. 
+
 ### Tools
 
 The following categories of tools for website development are discussed.
