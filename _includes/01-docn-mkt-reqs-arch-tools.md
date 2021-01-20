@@ -71,5 +71,3 @@ React.js is based on node.js with all the associated benefits of server-side ren
 Source control and backup storage: The git and github (industry standard) 
 [The remote origin repository](http://github.com/johnoos/react.js-workspace) and [the older archived version](http://github.com/johnoos/react.js-wspace)
 Large files and folders, such as the 'node-modules' folder of node.js (part of react.js) that are typicall about 0.5GB in size should be identified in .gitignore to prevent their duplication in Github (they should only reside in the relevant react.js webapp in the workspace on the laptop client. 
- 
-
