@@ -28,21 +28,10 @@ A group of fifty-six people have been identified to assist with 'spreading the w
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
 
 ### Code structure and management
-The workspace is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
+The **WORKSPACE** is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
 
-A webapp folder is at the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
-
-* backedup folder (to drive.google.com)
-* use of backup and sync app - ONLY backedup folder
-* large files such as node-modules not in backedup
-* where are IT-workspaces in folder structure
-* concept of a WORKSPACE vs WEBAPP
-   ** workspace - a git repository - unit of commitment
-   ** webapp (the react.js app)
-      *** npm start for autodeploy on save during dev - for viewing in browser
-      *** will eventually be built and deployed
-* git / npm architectures combined 
-   ** 2 levels - '..-wspace' commit vs app npm start 
+Each workspace can contain multiple **WEBAPP** folders, the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
+The Music Theory Tuition web app is at this level.
 
 ### Data Management
 The certificates displyed in the credentials section of the web app constitutes 'data'. These PDF documents are stored on the folder of the MAC laptop that is backed up to Google Drive (gdrive) with the Google Backup and Sync app. On gdrive, the respective documents are 'shared', and the public links are used in the react.js code. 
@@ -69,15 +58,8 @@ Github Pages is not an option as it is tightly integrated with the other github 
 Coding language: react.js  
 React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
 
-* backedup folder (to drive.google.com)
-* use of backup and sync app - ONLY backedup folder
-* large files such as node-modules not in backedup
-* where are IT-workspaces in folder structure
-* concept of a WORKSPACE vs WEBAPP
-   ** workspace - a git repository - unit of commitment
-   ** webapp (the react.js app)
-      *** npm start for autodeploy on save during dev - for viewing in browser
-      *** will eventually be built and deployed
-* git / npm architectures combined 
-   ** 2 levels - '..-wspace' commit vs app npm start 
+Source control and backup storage: The git and github (industry standard) 
+[The remote origin repository](http://github.com/johnoos/react.js-workspace) and [the older archived version](http://github.com/johnoos/react.js-wspace)
+Large files and folders, such as the 'node-modules' folder of node.js (part of react.js) that are typicall about 0.5GB in size should be identified in .gitignore to prevent their duplication in Github (they should only reside in the relevant react.js webapp in the workspace on the laptop client. 
+ 
 
