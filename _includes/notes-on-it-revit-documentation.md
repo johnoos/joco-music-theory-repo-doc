@@ -1,4 +1,4 @@
-### Notes on IT Revitalisation Documentation  
+## Notes on IT Revitalisation Documentation  
 This documentation is located 
 at https://johnoos.github.io/it-revit-docn
 which uses the 'pages' facility of github and the 'markdown' language
