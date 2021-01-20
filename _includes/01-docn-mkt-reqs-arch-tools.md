@@ -1,5 +1,5 @@
 ## Documentation
-Time was invested in properly documenting the various aspects of the webapp dvelopment. The purpose is to minimise ramp-up time after time away from development.
+Time was invested in properly documenting the various aspects of the webapp development. The purpose is to minimise ramp-up time after time away from development.
 
 This documentation is located 
 at https://johnoos.github.io/it-revit-docn
