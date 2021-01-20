@@ -37,7 +37,7 @@ It is envisaged that web apps with static (initially) and dynamic (evntually) re
 The following architecture decisions were made, for reasons as provided.
 
 ### Dynamic Content
-There are many tools that provide pages with static content. Such pages make up websites, not web applications (web apps). Such websites are delivered in a fraction of the time of web applications, but they are less flexible and cannot readily expand into web application with dynamic content without changing the underlying architeture or technology. Using tooling capable of dynamic content from the outset is architecturally sound. All node.js-based platforms produce dynamic content by definition.
+There are many tools that provide pages with static content. Such pages make up websites, not web applications (web apps). Such websites are delivered in a fraction of the time of web applications, but they are less flexible and cannot readily expand into web application with dynamic content without changing the underlying architeture or technology. Using tooling capable of dynamic content from the outset is architecturally sound. All node.js-based platforms produce dynamic content by definition. It is envisaged that much of the initial development will be in the form of static content, but positioned for expansion.
 
 ### Server-Side Rendition (SSR)
 Node.js-based development platforms are SSR by definition, as the HTML is generated on the server before being sent to the browser client. This is unlike client-side rendering (CSR) where it is generated in the browser. There are several benefits of SSR, including that the generation process is much quicker, and the dependency on specific browsers with CSR-capability is eliminated.
