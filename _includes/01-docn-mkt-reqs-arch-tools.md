@@ -30,14 +30,13 @@ The COVID-19 pandemic has reduced the disposable income of many families and stu
 
 A group of fifty-six people have been identified to assist with 'spreading the word'. An initial email will be sent to them with links to the marketing app and a simple facebook page with contact info and a link to the web app.
 
-## Architecture
-### Architectural Requirements
-It is envisaged that web apps with static (initially) and dynamic (evntually) requirements will be built. The initial web app will market the music theory tuition offerings. Thereafter, a marketing web app will be developed for customised web app building, followed by the actual customised web apps. It makes sense to adopt (or create) an architecture framework that will form the basis for all these development projects. Each project would reap the benefit of structural and functional reuse.
-
+## Architecture Decisions
 The following architecture decisions were made, for reasons as provided.
 
 ### Dynamic Content
-There are many tools that provide pages with static content. Such pages make up websites, not web applications (web apps). Such websites are delivered in a fraction of the time of web applications, but they are less flexible and cannot readily expand into web application with dynamic content without changing the underlying architeture or technology. Using tooling capable of dynamic content from the outset is architecturally sound. All node.js-based platforms produce dynamic content by definition. It is envisaged that much of the initial development will be in the form of static content, but positioned for expansion.
+The term website is generally associated with static content whereas the term 'web app' generally contains more dynamic content. The term 'web app' will be used here.
+
+Web apps are cheaper and faster to build but they are less flexible and cannot be functionally enriched with architectural or tooling changes. As flexibility is important, it was decided that react.js, a platform with a fully-fledged development language that support dynamic content will be used for choice for all web appliation development.
 
 ### Server-Side Rendition (SSR)
 Node.js-based development platforms are SSR by definition, as the HTML is generated on the server before being sent to the browser client. This is unlike client-side rendering (CSR) where it is generated in the browser. There are several benefits of SSR, including that the generation process is much quicker, and the dependency on specific browsers with CSR-capability is eliminated.
@@ -52,9 +51,9 @@ With responsive web design, the page content automatically re-adjusts itself whe
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
 
 ### Code structure and management
-The **WORKSPACE** is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with **-wspace**. folder contains the .git repository. 
+The 'repository' is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with '-repo'. folder contains the .git repository. 
 
-Each workspace can contain multiple **WEBAPP** folders, the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
+Each workspace can contain multiple 'webapp' folders, the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
 The Music Theory Tuition web app is at this level.
 
 ### Data Management
@@ -85,5 +84,5 @@ Coding language: react.js
 React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
 
 Source control and backup storage: The git and github (industry standard) 
-[The remote origin repository](http://github.com/johnoos/react.js-workspace) and [the older archived version](http://github.com/johnoos/react.js-wspace)
+[The remote origin repository](http://github.com/johnoos/react.js-repo) and [the older archived version](http://github.com/johnoos/react.js-repo-older)
 Large files and folders, such as the 'node-modules' folder of node.js (part of react.js) that are typicall about 0.5GB in size should be identified in .gitignore to prevent their duplication in Github (they should only reside in the relevant react.js webapp in the workspace on the laptop client. 
