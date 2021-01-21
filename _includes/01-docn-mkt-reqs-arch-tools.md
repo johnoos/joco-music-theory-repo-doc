@@ -22,7 +22,7 @@ The initial offering is online music theory tuition, and the initial target mark
 * Instrumental tuition will hopefully become a reality. Candy will offer guitar lessons, and John will offer piano and pipe organ lessons. 
 * Group tuition, or one-to-many-tuition, eithonline or in the same room, will enable ore affordable tuition, especially for schools, students, or siblings.
 
-About fifty colleagues, family, and friends have been identified for an initial outreach. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the web app and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
+About fifty colleagues, family, and friends have been identified for an initial 'marketing campaign'. An initial email, announcing the music theory tuition offerings will be sent to them during January 2021. The email will also contain a link to the web app and possibly to a Facebook page with contact details and a brief description of the offerings. The addressees will be asked to 'like' the page. The list is being compiled in the 
 backedup/music/MUSIC-WEB-APP-DOCS/client&prospects.xlsx spreadsheet.
 
 ## App Requirements
@@ -51,9 +51,7 @@ With responsive web design, the page content automatically re-adjusts itself whe
 React.js components are used for two levels of components: structural components (header, sidebar, content), and content components that mainly contain text, but could also, at a future date, contain dynamic content. The rationale behind component usage is potential reuse in future webapps, especially if custom webapps will be built for clients. Reuse reduces the time to structure a web app and eliminates 're-inventing the wheel' at the content component level. Finally, components ease maintenance as it adheres to the principle of 'high cohesion and loose coupling'.
 
 ### Code structure and management
-The 'repository' is the MAC folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with '-repo'. folder contains the .git repository. 
-
-Each workspace can contain multiple 'webapp' folders, the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'.
+The 'repository' is the laptop folder level corresponding to a github repository, and therefore the level at which a 'git push' occurs. Folder names at this level end with '-repo'. folder contains the .git repository. Each repo can contain multiple webapp folders, the level where npm commands are executed, such as 'npm init', 'npm start' and 'npm build'. Each webapp folder contains its own 'public', 'src', and (eventually) 'build' folders.
 The Music Theory Tuition web app is at this level.
 
 ### Data Management
