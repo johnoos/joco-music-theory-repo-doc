@@ -68,21 +68,22 @@ The following categories of tools for website development are discussed.
 | Tool Category | Tool | Rationale |
 | :-- | :-- | :-- |
 | URL shortening | bit.ly | The shortened URL can be edited to be more descriptive |
-
+| :-- | :-- | :-- |
 | Code editors/IDEs | Visual Studio Code for react.js code | Rich in function, easy to use, free |
-
+| :-- | :-- | :-- |
 | Image processing | GIMP | Rich in function, current, free |
-
+| :-- | :-- | :-- |
 | Audio processing | Audacity | Rich in function, current, free |
-
+| :-- | :-- | :-- |
 | Video processing | DaVinci Resolve | Rich in function, current, free |
-
+| :-- | :-- | :-- |
 | Browser | Firefox with its developer support | Chrome is too resource intensive, and Safari ecosystem of extensions is limited and not free |
-
+| :-- | :-- | :-- |
 | Hosting | Google Cloud | it's easy to use and one of the cheapest options | 
 | | | Github Pages is not an option as it is tightly integrated with the other github functions and displays a link to the 'development code'. |
-
+| :-- | :-- | :-- |
 | Coding language | react.js | see architecture decisions, and discussion below) |
+| :-- | :-- | :-- |
 
 React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
 
