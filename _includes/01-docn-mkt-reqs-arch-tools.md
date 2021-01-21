@@ -3,13 +3,13 @@ Time was invested in properly documenting the target market, requirements, archi
 The purpose is to minimise ramp-up time after a period of inactivity.
 
 This documentation is located 
-at https://johnoos.github.io/Music-Theory-Tuition-Web-App-Documentation
+at https://johnoos.github.io/Music-Theory-Tuition-Webapp-Documentation
 which uses the 'pages' facility of github and the 'markdown' language, the 
 natural documentation language of Github. 
 The reason for selecting Github for this documentation is that it where the 
 source code is stored and one would, therefore, naturally look there for appliation documentation. 
 In this way I also get more exposure to Github and this becomes part of my IT revitalisation efforts.
-To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Web-App-Documentation link. 
+To update the documentation, use the http://github.com/johnoos/Music-Theory-Tuition-Webapp-Documentation link. 
 There is no local copy of the documentation on the MAC laptop. For more information, click on one of the following:
 [Getting started with Github Pages](https://docs.github.com/en/github/working-with-github-pages/getting-started-with-github-pages) 
 [Writing on Github](https://docs.github.com/en/github/writing-on-github)
