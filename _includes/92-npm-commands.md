@@ -1,8 +1,9 @@
-## Appendix B: NPM Commands
+## Appendix B: npm / npx Commands
 
 | Command | Description |
 | :-- | :-- |
 | npm init -y | creates package.json |
+| npx nodemon | start nodemon for autodeployment of changes (??) |
 | npm start | issue only when in the node.js-based web app root folder (where package.json is stored |
 | npm build | issue to build the deployment archive (like a war file for java) |
 | npm deploy | ???? |
