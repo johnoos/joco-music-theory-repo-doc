@@ -1,6 +1,6 @@
 ## Coding
 The Visual Studio Code Interactive Development Environment (IDE). 
-The folder at the WORKSPACE level should be opend in the IDE for the built-in git support to work properly. I normally  
+The folder at the repo level should be opend in the IDE for the built-in git support to work properly. I normally  
 Alternatively, git can be used with a command line interface (CLI). I prefer to use the git command line commands, however.  
 
 Before coding starts, the current working directory should be changed to the webapp folder, in this case, 'jo-music-theory'. 
