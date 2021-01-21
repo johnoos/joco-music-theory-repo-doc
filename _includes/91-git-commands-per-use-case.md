@@ -1,22 +1,29 @@
 ## Appendix A: git Commands per Use Case
 Notes:
-   * The WORKSPACE folder corresponds to a Github repository
-   * The WEBAPP folder is the web app that will be coded, built, deployed
+   * The 'repo' folder corresponds to a Github repository
+   * The 'webapp' folder is the web app that will be coded, built, deployed
 
-### Use Case 1: Create a repository on Github
-Go to GitHub and create a repository. Append the name with '-workspace'.
+### Use case 1: Create an empty repository on Github
+Go to GitHub and create a repository. Append the name with '-repo'.
    * leave create README file unchecked
-   * copy url [e.g. https://github.com/johnoos/xxx-workspace.git]
+   * copy the repo url for linking a local repo to it [e.g. https://github.com/johnoos/xxx-repo.git]
    
-### Create a repository on the laptop
-On the MAC, in a CLI window:
-   * Make the WORKSPACE folder the current directory
+### Use case 2: Enable an existing local project for git (i.e. create a .git folder) 
+On the laptop, in a CLI window:
+   * Append '-repo' to the project folder name
+   * Make the folder the current directory
    * echo "# xxx" >> README.md [good idea]
-   * git init [creates .git local repo]
+   * git init [changes the project into a git repo by creating a .git local repo]
+
+### Use Case 3: Download a project from a Github repository
+On the MAC, in a Command Line Interface (CLI) window:
+   * Create the WORKSPACE directory, append the name with '-workspace' and change the current working directory to it
+   * git clone https://github.com/johnoos/xxx.git
+   * npm init -y [creates package.json]             **(must I assume npm is part ot the github workspace?)**
+   * 
 
 ### Link and upload changes to local project
-
-In Terminal:
+In a CLI window:
    
    * git remote add origin <url> [establishes the link to github repo]
    * git remote -v [verifies link]
@@ -26,12 +33,7 @@ In Terminal:
    
 
 
-### Use Case 2: Download a project from a Github repository
-On the MAC, in a Command Line Interface (CLI) window:
-   * Create the WORKSPACE directory, append the name with '-workspace' and change the current working directory to it
-   * git clone https://github.com/johnoos/xxx.git
-   * npm init -y [creates package.json]             **(must I assume npm is part ot the github workspace?)**
-   * 
+
    
 
 For more information on git commands, click [here](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/).  
