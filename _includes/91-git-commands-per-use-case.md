@@ -16,7 +16,7 @@ On the laptop, in a CLI window:
    * git init [changes the project into a git repo by creating a .git local repo]
 
 ### Use Case 3: Download a project from a Github repository to an existing 
-On the MAC, in a Command Line Interface (CLI) window:
+In a CLI window:
    * Create the repo directory, append the name with '-repo' and change the current working directory to it
    * git clone https://github.com/johnoos/xxx.git
    * node install npm [I assume modules are not stored in github repositories]
@@ -24,11 +24,10 @@ On the MAC, in a Command Line Interface (CLI) window:
 
 ### Use case 4: Commit local project changes and push to 'origin' github repository
 In a CLI window:
-   
    * git remote add origin <url> [establishes the link to github repo]
    * git remote -v [verifies link]
    * git add . [or git add README.md etc] [marks all for local commit]
-   * git commit -m “first commit” [commits on client]
+   * git commit -m “description of changes” [commits on client]
    * git push origin master [syncs commit with remote repo]
    
 
