@@ -62,8 +62,7 @@ The certificates displayed in the credentials section of the web app constitutes
 The benefit of this design is that any changes made to the data on the laptop are immediately seen on the deployed application.
 
 ### Tools
-
-The following categories of tools for website development are discussed.
+The following categories of tools for web app development are discussed.
 
 | Tool Category | Tool | Rationale |
 | :-- | :-- | :-- |
