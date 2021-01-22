@@ -24,11 +24,24 @@ In a CLI window:
 
 ### Use case 4: Commit local project changes and push to 'origin' github repository
 In a CLI window:
+   * Make the repo directory the current directory
    * git remote add origin <url> [establishes the link to github repo]
    * git remote -v [verifies link]
    * git add . [or git add README.md etc] [marks all for local commit]
    * git commit -m “description of changes” [commits on client]
    * git push origin master [syncs commit with remote repo]
+  
+### Use case 5: Delete a repo alias
+In a CLI window:
+   * Make the repo directory the current directory
+   * git remote remove <aliasname>
+   * git remote -v [to verify that it no longer there]
+  
+### Use case 6: Rename a repo alias
+In a CLI window:
+   * Make the repo directory the current directory
+   * git remote rename <oldname> <newname>
+   * git remote -v [to verify the name change]
    
 
 
