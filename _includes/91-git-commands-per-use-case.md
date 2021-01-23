@@ -1,7 +1,9 @@
-## Appendix A: git Commands per Use Case
+## Appendix A: git Commands by Use Case
 Notes:
-   * The 'repo' folder corresponds to a Github repository
-   * The 'webapp' folder is the web app that will be coded, built, deployed
+   * The 'repo' folder corresponds to a Github repository (both remote and local). Local repos contain the .git directory.
+   * The 'webapp' folder is the web app that will be coded, built, deployed. 
+React.js app directories contain the package.json directory created by npm init.
+   * Each use case refers to the CLI window where git commands are executed. Instead, the VSC IDE equivalent functionality can be used.
 
 ### Use case 1: Create an empty repository on Github
 Go to GitHub and create a repository. Append the name with '-repo'.
@@ -43,9 +45,16 @@ In a CLI window:
    * git remote rename <oldname> <newname>
    * git remote -v [to verify the name change]
   
-### Use case 7: Update local repository with any changes made to the remote repo
+### Use case 7: Merge a branch back into master
+In a CLI window:
+   * Make the repo directory the current directory.
+   * git checkout master
+   * git merge <other-branchname>
+  
+### Use case 8: Update local repository with any changes made to the remote repo
 (This should not be needed if only the local repo is ever changed)
 In a CLI window:
+   * Make the repo directory the current directory.
    * git pull
    
 [git commands](https://github.com/git-guides/)
