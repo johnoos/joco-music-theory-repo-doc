@@ -65,7 +65,7 @@ The following categories of tools for web app development are discussed.
 | Tool Category | Tool | Rationale |
 | :-- | :-- | :-- |
 | URL shortening | bit.ly | The shortened URL can be edited to be more descriptive |
-| Code editors/IDEs | Visual Studio Code for react.js code | Rich in function, easy to use, free |
+| Code editors/IDEs | Visual Studio Code for react.js code | Rich in function, easy to use, free. It has good support for version control products including git, and this integration could be used for some of the version control use cases that appear in Appexdix A, Only the master branch of git should be used for the purposes of simplicity. Multiple branches are only useful when there is more than one developer. |
 | Image processing | GIMP | Rich in function, current, free |
 | Audio processing | Audacity | Rich in function, current, free |
 | Video processing | DaVinci Resolve | Rich in function, current, free |
