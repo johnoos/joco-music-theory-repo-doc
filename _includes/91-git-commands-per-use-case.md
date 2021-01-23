@@ -43,9 +43,5 @@ In a CLI window:
    * git remote rename <oldname> <newname>
    * git remote -v [to verify the name change]
    
-
-
-
-   
-
-For more information on git commands, click [here](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/).  
+[Git reference website](https://github.com/git-guides/)
+[Cheat sheet and best practices](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/)  
