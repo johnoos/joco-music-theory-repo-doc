@@ -44,5 +44,5 @@ In a CLI window:
    * git remote -v [to verify the name change]
    
 [git commands](https://github.com/git-guides/)
-[git comprehensive reference](https://git-scm.com/docs/git-pull)
+[git comprehensive reference](https://git-scm.com/docs/)
 [Cheat sheet and best practices](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/)  
