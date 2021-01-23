@@ -43,5 +43,6 @@ In a CLI window:
    * git remote rename <oldname> <newname>
    * git remote -v [to verify the name change]
    
-[Git reference website](https://github.com/git-guides/)
+[git commands](https://github.com/git-guides/)
+[git comprehensive reference](https://git-scm.com/docs/git-pull)
 [Cheat sheet and best practices](https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/)  
