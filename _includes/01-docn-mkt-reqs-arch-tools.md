@@ -62,14 +62,33 @@ The benefit of this design is that any changes made to the data on the laptop ar
 ### Tools
 The following categories of tools for web app development are discussed.
 
-| __Tool Category__ | __Tool__ | __Rationale__ |
-| :-- | :-- | :-- |
-| **URL shortening** | bit.ly | The shortened URL can be edited to be more descriptive. Google Cloud deployed apps hav unwieldly URLs, and it is useful to shorten the URL to something more manageable (and, hopefully, memorisable) prior to distributing it on social media oe email. |
-| **Code editors/IDEs** | Visual Studio Code for react.js code | Rich in function, easy to use, free. It has good support for version control products including git, and this integration could be used for some of the version control use cases that appear in Appexdix A, Only the master branch of git should be used for the purposes of simplicity. Multiple branches are only useful when there is more than one developer. <br/><br/> *Cmd-Shift-P* presents a list of commands, from where customised shortcuts can be created. The recommended shortcuts are: cmd-ctrl-a -> git add .; cmd-ctrl-c -> git commit; cmd-ctrl-p -> git push origin master; and cmd-ctrl-i to add the current file to .gitignore directory. <br/> [More information on VSC](https://code.visualstudio.com/docs#vscode) |
-| **Image processing** | GIMP | Rich in function, current, free |
-| **Audio processing** | Audacity | Rich in function, current, free |
-| **Video processing** | DaVinci Resolve | Rich in function, current, free |
-| **Browser** | Firefox with its developer support | Chrome is too resource intensive, and Safari ecosystem of extensions is limited and not free |
-| **Hosting** | Google Cloud | it's easy to use and one of the cheapest options <br/> Github Pages is not an option as it is tightly integrated with the other github functions and displays a link to the 'development code'. |
-| **Coding language** | react.js | React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal. |
-| **Source control and backup** | The git and github (industry standard) | [The remote origin repository](http://github.com/johnoos/react.js-repo) and [the older archived version](http://github.com/johnoos/react.js-repo-older). Large files and folders, such as the 'node-modules' folder of node.js (part of react.js) that are typically about 0.5GB in size should be identified in .gitignore to prevent their duplication in Github (they should only reside in the relevant react.js webapp in the workspace on the laptop client. Refer to Appendix A for git use cases and more information. 
+#### URL shortening - bit.ly 
+The shortened URL can be edited to be more descriptive. Google Cloud deployed apps hav unwieldly URLs, and it is useful to shorten the URL to something more manageable (and, hopefully, memorisable) prior to distributing it on social media oe email.
+
+#### Code editors/IDEs
+Visual Studio Code for react.js code | Rich in function, easy to use, free. It has good support for version control products including git, and this integration could be used for some of the version control use cases that appear in Appexdix A, Only the master branch of git should be used for the purposes of simplicity. Multiple branches are only useful when there is more than one developer. <br/><br/> *Cmd-Shift-P* presents a list of commands, from where customised shortcuts can be created. The recommended shortcuts are: cmd-ctrl-a -> git add .; cmd-ctrl-c -> git commit; cmd-ctrl-p -> git push origin master; and cmd-ctrl-i to add the current file to .gitignore directory. <br/> [More information on VSC](https://code.visualstudio.com/docs#vscode)
+
+#### Image processing - GIMP
+Rich in function, current, free
+
+#### Audio processing - Audacity
+Rich in function, current, free
+
+#### Video processing - DaVinci Resolve
+Rich in function, current, free
+
+#### Browser - Firefox with its developer support
+Chrome is too resource intensive, and Safari ecosystem of extensions is limited and not free.
+
+#### Hosting - Google Cloud
+It's easy to use and one of the cheapest options <br/> Github Pages is not an option as it is tightly integrated with the other github functions and displays a link to the 'development code'.
+
+#### Coding platform -react.js
+React.js is based on node.js with all the associated benefits of server-side rendering (SSR). It is also part of an ecosystem of web UI component suppliers. It strikes a good balance between prebuilt components (typical of static content tools) and a powerful dynamic content language. React.js components are used at two levels: to create web page structure (structural components) and for content (content components). An external sidebar menu component is used to select the content that is display in a vertically scrollable content pane characteristic of a single page application (SPA). The responsive web design (RWD) principle is adhered to in a way that targets the standard laptop screen size. Rendering on a mobile device is possible but not optimal.
+
+React.js uses the JSX language, which can loosely be thought of as an extension of HTML with support for componentisation of the user interface. This results in reuse at many evels including structure and functionality. 
+
+#### Source control and backup - git and github (industry standard)
+Github is a set of central repositories. git is the distributed version control language.
+
+[The remote repository](http://github.com/johnoos/react.js-repo) contains the source code of all the websites I built on this platform. Large files and folders, such as the 'node-modules' folder of node.js (part of react.js) that are typically about 0.5GB in size should be identified in .gitignore to prevent their  duplication in Github. They should only reside in the relevant react.js webapp in the repo on the laptop client. Refer to Appendix A for git use cases and more information. 
