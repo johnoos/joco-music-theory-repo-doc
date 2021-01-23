@@ -42,6 +42,11 @@ In a CLI window:
    * Make the repo directory the current directory
    * git remote rename <oldname> <newname>
    * git remote -v [to verify the name change]
+  
+### Use case 7: Update local repository with any changes made to the remote repo
+(This should not be needed if only the local repo is ever changed)
+In a CLI window:
+   * git pull
    
 [git commands](https://github.com/git-guides/)
 [git comprehensive reference](https://git-scm.com/docs/)
